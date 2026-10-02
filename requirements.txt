@@ -1,0 +1,56 @@
+# ==============================
+# LangChain / LCEL
+# ==============================
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-text-splitters>=1.0,<2.0
+langchain-mistralai>=0.2,<2.0
+
+# ==============================
+# Local Whisper
+# ==============================
+openai-whisper>=20240930
+torch>=2.0
+tiktoken>=0.7
+
+# ==============================
+# YouTube / Audio
+# ==============================
+yt-dlp>=2025.1
+pydub>=0.25
+audioop-lts>=0.2.2; python_version >= "3.13"
+sarvamai>=0.1.35
+
+# ==============================
+# RAG / Vector Database
+# ==============================
+langchain-chroma>=0.2,<2.0
+chromadb>=0.5
+langchain-huggingface>=0.2,<2.0
+sentence-transformers>=3.0
+
+# ==============================
+# Streamlit UI
+# ==============================
+streamlit>=1.40
+
+# ==============================
+# PDF / TXT Export
+# ==============================
+reportlab>=4.0
+
+# ==============================
+# Environment Variables
+# ==============================
+python-dotenv>=1.0,<2.0
+
+# ==============================
+# Data Validation
+# ==============================
+pydantic>=2.7,<3.0
+
+# ==============================
+# HTTP / Utilities
+# ==============================
+requests>=2.31
+rich>=13.0

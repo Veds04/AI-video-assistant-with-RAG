@@ -1,0 +1,100 @@
+# ==============================
+# Secrets & Environment
+# ==============================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ==============================
+# Python Bytecode & Cache
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+ENV/
+env/
+
+# ==============================
+# Application Generated Data & Downloads
+# ==============================
+downloads/*
+!downloads/.gitkeep
+data/chroma/*
+!data/chroma/.gitkeep
+data/sessions/*
+!data/sessions/.gitkeep
+
+# Runtime-generated transcript output
+transcript.txt
+
+# ==============================
+# Media Files
+# ==============================
+*.wav
+*.mp4
+*.mkv
+*.webm
+*.flac
+*.m4a
+*.mp3
+*.avi
+*.mov
+*.part
+
+# ==============================
+# Vector DB / RAG Artifacts
+# ==============================
+chroma/
+chroma_db/
+faiss_index/
+*.faiss
+*.pkl
+*.sqlite3
+vectorstore/
+embeddings/
+index/
+
+# ==============================
+# Model Weights & Caches
+# ==============================
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+.cache/
+
+# ==============================
+# Temporary Files & Logs
+# ==============================
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ==============================
+# IDE, Agent & OS Specific
+# ==============================
+.vscode/
+.idea/
+.antigravity/
+.gemini/
+.agents/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Build Output
+# ==============================
+dist/
+build/
